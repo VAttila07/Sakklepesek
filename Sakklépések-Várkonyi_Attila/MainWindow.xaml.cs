@@ -20,9 +20,20 @@ namespace Sakklépések_Várkonyi_Attila
     /// </summary>
     public partial class MainWindow : Window
     {
+        Rectangle[,] mezo;
         public MainWindow()
         {
             InitializeComponent();
+            TablaBetolt();
+        }
+
+        private void TablaBetolt()
+        {
+            for (int i = 0; i < 8; i++)
+            {
+                tabla.RowDefinitions.Add(new RowDefinition());
+                tabla.ColumnDefinitions.Add(new ColumnDefinition());
+            }
         }
     }
 }
