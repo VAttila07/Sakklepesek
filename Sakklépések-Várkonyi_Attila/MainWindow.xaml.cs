@@ -65,7 +65,32 @@ namespace Sakklépések_Várkonyi_Attila
 
         private void Kivalasztas(object sender, MouseButtonEventArgs e)
         {
-            throw new NotImplementedException();
+            Rectangle kivalasztott = sender as Rectangle;
+            int x = -1;
+            int y = -1;
+            //Vegigmegyunk a táblán és ha a kiválasztott kockát megtalálta kapjuk meg a koordinátáit
+            for (int i = 0; i < 8; i++)
+            {
+                for (int j = 0; j < 8; j++)
+                {
+                    
+                    if(mezo[i, j].Equals(kivalasztott))
+                    {
+                        x = i;
+                        y = j;
+                    }
+                    //A régebbi kiválasztott elemek visszaszínezése
+                    if ((i + j) % 2 == 0)
+                    {
+                        mezo[i, j].Fill = Brushes.White;
+                    }
+                    else
+                    {
+                        mezo[i, j].Fill = Brushes.Black;
+                        mezo[i, j].Stroke = Brushes.White;
+                    }
+                }
+            }
         }
     }
 }
