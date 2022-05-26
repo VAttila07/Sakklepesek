@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Sakklépések" Height="750" Width="700">
     <Grid>
-        <ComboBox Name="sakkBabuk" HorizontalAlignment="Center" Margin="220,60,224,0" VerticalAlignment="Top" Width="248">
+        <ComboBox Name="sakkBabuk" HorizontalAlignment="Left" Margin="220,60,0,0" VerticalAlignment="Top" Width="248">
             <ComboBoxItem Name="kiraly" Content="Király"/>
             <ComboBoxItem Name="kiralyNo" Content="Királynő"/>
             <ComboBoxItem Name="bastya" Content="Bástya"/>
@@ -16,7 +16,7 @@
             <ComboBoxItem Name="feherGy" Content="Fehér Gyalog"/>
             <ComboBoxItem Name="feketeGy" Content="Fekete Gyalog"/>
         </ComboBox>
-        <Grid x:Name="tabla" HorizontalAlignment="Center" Height="500" Margin="105,132,105,0" VerticalAlignment="Top" Width="500"/>
+        <Grid x:Name="tabla" HorizontalAlignment="Left" Height="500" Margin="105,132,0,0" VerticalAlignment="Top" Width="500"/>
         <Label Content="Mező pozíciója: " Name="pozicio" HorizontalAlignment="Left" Margin="110,654,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
         <Label Content="Lehetséges lépések: " Name="lehetsegesL" HorizontalAlignment="Left" Margin="110,680,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
 

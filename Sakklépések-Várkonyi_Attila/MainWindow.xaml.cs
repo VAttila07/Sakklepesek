@@ -34,6 +34,38 @@ namespace Sakklépések_Várkonyi_Attila
                 tabla.RowDefinitions.Add(new RowDefinition());
                 tabla.ColumnDefinitions.Add(new ColumnDefinition());
             }
+
+            mezo = new Rectangle[8, 8];
+            for (int i = 0; i < 8; i++)
+            {
+                for (int j = 0; j < 8; j++)
+                {
+                    Rectangle ujMezo = new Rectangle();
+                    ujMezo.Stroke = Brushes.Black;
+                    ujMezo.StrokeThickness = 1;
+                    if ((i+j) % 2 == 0)
+                    {
+                        ujMezo.Fill = Brushes.White;
+                    }
+                    else
+                    {
+                        ujMezo.Fill = Brushes.Black;
+                        ujMezo.Stroke = Brushes.White;
+                    }
+                    ujMezo.PreviewMouseLeftButtonDown += Kivalasztas;
+                    mezo[i, j] = ujMezo;
+                    tabla.Children.Add(mezo[i, j]);
+                    Grid.SetRow(mezo[i, j], i);
+                    Grid.SetColumn(mezo[i, j], j);
+
+                }
+            }
+
+        }
+
+        private void Kivalasztas(object sender, MouseButtonEventArgs e)
+        {
+            throw new NotImplementedException();
         }
     }
 }
