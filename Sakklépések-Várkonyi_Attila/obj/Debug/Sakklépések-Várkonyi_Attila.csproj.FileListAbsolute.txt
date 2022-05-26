@@ -1,0 +1,15 @@
+D:\Programozás\Projects\Sakklépések-VA\Sakklepesek\Sakklépések-Várkonyi_Attila\bin\Debug\Sakklépések-Várkonyi_Attila.exe.config
+D:\Programozás\Projects\Sakklépések-VA\Sakklepesek\Sakklépések-Várkonyi_Attila\bin\Debug\Sakklépések-Várkonyi_Attila.exe
+D:\Programozás\Projects\Sakklépések-VA\Sakklepesek\Sakklépések-Várkonyi_Attila\bin\Debug\Sakklépések-Várkonyi_Attila.pdb
+D:\Programozás\Projects\Sakklépések-VA\Sakklepesek\Sakklépések-Várkonyi_Attila\obj\Debug\Sakklépések-Várkonyi_Attila.csprojAssemblyReference.cache
+D:\Programozás\Projects\Sakklépések-VA\Sakklepesek\Sakklépések-Várkonyi_Attila\obj\Debug\MainWindow.g.cs
+D:\Programozás\Projects\Sakklépések-VA\Sakklepesek\Sakklépések-Várkonyi_Attila\obj\Debug\App.g.cs
+D:\Programozás\Projects\Sakklépések-VA\Sakklepesek\Sakklépések-Várkonyi_Attila\obj\Debug\Sakklépések-Várkonyi_Attila_MarkupCompile.cache
+D:\Programozás\Projects\Sakklépések-VA\Sakklepesek\Sakklépések-Várkonyi_Attila\obj\Debug\Sakklépések-Várkonyi_Attila_MarkupCompile.lref
+D:\Programozás\Projects\Sakklépések-VA\Sakklepesek\Sakklépések-Várkonyi_Attila\obj\Debug\MainWindow.baml
+D:\Programozás\Projects\Sakklépések-VA\Sakklepesek\Sakklépések-Várkonyi_Attila\obj\Debug\Sakklépések-Várkonyi_Attila.g.resources
+D:\Programozás\Projects\Sakklépések-VA\Sakklepesek\Sakklépések-Várkonyi_Attila\obj\Debug\Sakklépések_Várkonyi_Attila.Properties.Resources.resources
+D:\Programozás\Projects\Sakklépések-VA\Sakklepesek\Sakklépések-Várkonyi_Attila\obj\Debug\Sakklépések-Várkonyi_Attila.csproj.GenerateResource.cache
+D:\Programozás\Projects\Sakklépések-VA\Sakklepesek\Sakklépések-Várkonyi_Attila\obj\Debug\Sakklépések-Várkonyi_Attila.csproj.CoreCompileInputs.cache
+D:\Programozás\Projects\Sakklépések-VA\Sakklepesek\Sakklépések-Várkonyi_Attila\obj\Debug\Sakklépések-Várkonyi_Attila.exe
+D:\Programozás\Projects\Sakklépések-VA\Sakklepesek\Sakklépések-Várkonyi_Attila\obj\Debug\Sakklépések-Várkonyi_Attila.pdb
