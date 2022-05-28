@@ -149,6 +149,7 @@ namespace Sakklépések_Várkonyi_Attila
             }
             if (sakkBabuk.SelectedItem == huszar)
             {
+                
                 kivalasztott.Fill = new ImageBrush(new BitmapImage(
                     new Uri(@"huszar.png", UriKind.Relative)));
                 pozicio.Visibility = Visibility.Visible;
@@ -156,6 +157,22 @@ namespace Sakklépések_Várkonyi_Attila
             }
             if (sakkBabuk.SelectedItem == bastya)
             {
+                for (int i = x; i < 8; i++)
+                {
+                    mezo[i, y].Fill = Brushes.Red;
+                }
+                for (int i = x; i > 0; i--)
+                {
+                    mezo[i-1, y].Fill = Brushes.Red;
+                }
+                for (int i = y; i < 8; i++)
+                {
+                    mezo[x, i].Fill = Brushes.Red;
+                }
+                for (int i = y; i > 0; i--)
+                {
+                    mezo[x, i - 1].Fill = Brushes.Red;
+                }
                 kivalasztott.Fill = new ImageBrush(new BitmapImage(
                     new Uri(@"bastya.png", UriKind.Relative)));
                 pozicio.Visibility = Visibility.Visible;
@@ -163,6 +180,14 @@ namespace Sakklépések_Várkonyi_Attila
             }
             if (sakkBabuk.SelectedItem == feherGy)
             {
+                if (x >= 1)
+                {
+                    mezo[x - 1, y - 1].Fill = Brushes.Red;
+                    mezo[x - 1, y + 1].Fill = Brushes.Red;
+                }
+                else
+                    MessageBox.Show("A fehér gyalog nem tud tovább lépni!");
+                
                 kivalasztott.Fill = new ImageBrush(new BitmapImage(
                     new Uri(@"feherGy.png", UriKind.Relative)));
                 pozicio.Visibility = Visibility.Visible;
@@ -170,6 +195,14 @@ namespace Sakklépések_Várkonyi_Attila
             }
             if (sakkBabuk.SelectedItem == feketeGy)
             {
+                if (x <= 6)
+                {
+                    mezo[x + 1, y - 1].Fill = Brushes.Red;
+                    mezo[x + 1, y + 1].Fill = Brushes.Red;
+                }
+                else
+                    MessageBox.Show("A fekete gyalog nem tud tovább lépni!");
+                
                 kivalasztott.Fill = new ImageBrush(new BitmapImage(
                     new Uri(@"feketeGy.png", UriKind.Relative)));
                 pozicio.Visibility = Visibility.Visible;
