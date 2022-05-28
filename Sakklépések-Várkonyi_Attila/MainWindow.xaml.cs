@@ -92,41 +92,88 @@ namespace Sakklépések_Várkonyi_Attila
                     }
                 }
             }
-            if(sakkBabuk.SelectedItem == kiraly)
+            string betu = "a";
+            if (y == 0)
+            {
+                betu = "H";
+            }
+            if (y == 1)
+            {
+                betu = "G";
+            }
+            if (y == 2)
+            {
+                betu = "F";
+            }
+            if (y == 3)
+            {
+                betu = "E";
+            }
+            if (y == 4)
+            {
+                betu = "D";
+            }
+            if (y == 5)
+            {
+                betu = "C";
+            }
+            if (y == 6)
+            {
+                betu = "B";
+            }
+            if (y == 7)
+            {
+                betu = "A";
+            }
+
+            if (sakkBabuk.SelectedItem == kiraly)
             {
             kivalasztott.Fill = new ImageBrush(new BitmapImage(
                 new Uri(@"kiraly.png", UriKind.Relative)));
-                
+                pozicio.Visibility = Visibility.Visible;
+                pozicio.Content = "Mező pozíciója: " + betu + $"{x}";
             }
-            if(sakkBabuk.SelectedItem == kiralyNo)
+            if (sakkBabuk.SelectedItem == kiralyNo)
             {
                 kivalasztott.Fill = new ImageBrush(new BitmapImage(
                     new Uri(@"kiralyno.png", UriKind.Relative)));
+                pozicio.Visibility = Visibility.Visible;
+                pozicio.Content = "Mező pozíciója: " + betu + $"{x}";
             }
             if(sakkBabuk.SelectedItem == futo)
             {
                 kivalasztott.Fill = new ImageBrush(new BitmapImage(
                     new Uri(@"futo.png", UriKind.Relative)));
+                pozicio.Visibility = Visibility.Visible;
+                pozicio.Content = "Mező pozíciója: " + betu + $"{x}";
             }
             if (sakkBabuk.SelectedItem == huszar)
             {
                 kivalasztott.Fill = new ImageBrush(new BitmapImage(
                     new Uri(@"huszar.png", UriKind.Relative)));
+                pozicio.Visibility = Visibility.Visible;
+                pozicio.Content = "Mező pozíciója: " + betu + $"{x}";
             }
             if (sakkBabuk.SelectedItem == bastya)
             {
                 kivalasztott.Fill = new ImageBrush(new BitmapImage(
                     new Uri(@"bastya.png", UriKind.Relative)));
+                pozicio.Visibility = Visibility.Visible;
+                pozicio.Content = "Mező pozíciója: " + betu + $"{x}";
             }
             if (sakkBabuk.SelectedItem == feherGy)
             {
                 kivalasztott.Fill = new ImageBrush(new BitmapImage(
                     new Uri(@"feherGy.png", UriKind.Relative)));
+                pozicio.Visibility = Visibility.Visible;
+                pozicio.Content = "Mező pozíciója: " + betu + $"{x}";
             }
             if (sakkBabuk.SelectedItem == feketeGy)
             {
                 kivalasztott.Fill = new ImageBrush(new BitmapImage(
                     new Uri(@"feketeGy.png", UriKind.Relative)));
+                pozicio.Visibility = Visibility.Visible;
+                pozicio.Content = "Mező pozíciója: " + betu + $"{x}";
             }
 
 
