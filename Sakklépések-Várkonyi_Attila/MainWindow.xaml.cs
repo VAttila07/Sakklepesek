@@ -66,6 +66,7 @@ namespace Sakklépések_Várkonyi_Attila
         private void Kivalasztas(object sender, MouseButtonEventArgs e)
         {
             Rectangle kivalasztott = sender as Rectangle;
+            // Button kival = sender as Button v image helyette és vhogy igy.
             int x = -1;
             int y = -1;
             //Vegigmegyunk a táblán és ha a kiválasztott kockát megtalálta kapjuk meg a koordinátáit
@@ -91,6 +92,44 @@ namespace Sakklépések_Várkonyi_Attila
                     }
                 }
             }
+            if(sakkBabuk.SelectedItem == kiraly)
+            {
+            kivalasztott.Fill = new ImageBrush(new BitmapImage(
+                new Uri(@"kiraly.png", UriKind.Relative)));
+                
+            }
+            if(sakkBabuk.SelectedItem == kiralyNo)
+            {
+                kivalasztott.Fill = new ImageBrush(new BitmapImage(
+                    new Uri(@"kiralyno.png", UriKind.Relative)));
+            }
+            if(sakkBabuk.SelectedItem == futo)
+            {
+                kivalasztott.Fill = new ImageBrush(new BitmapImage(
+                    new Uri(@"futo.png", UriKind.Relative)));
+            }
+            if (sakkBabuk.SelectedItem == huszar)
+            {
+                kivalasztott.Fill = new ImageBrush(new BitmapImage(
+                    new Uri(@"huszar.png", UriKind.Relative)));
+            }
+            if (sakkBabuk.SelectedItem == bastya)
+            {
+                kivalasztott.Fill = new ImageBrush(new BitmapImage(
+                    new Uri(@"bastya.png", UriKind.Relative)));
+            }
+            if (sakkBabuk.SelectedItem == feherGy)
+            {
+                kivalasztott.Fill = new ImageBrush(new BitmapImage(
+                    new Uri(@"feherGy.png", UriKind.Relative)));
+            }
+            if (sakkBabuk.SelectedItem == feketeGy)
+            {
+                kivalasztott.Fill = new ImageBrush(new BitmapImage(
+                    new Uri(@"feketeGy.png", UriKind.Relative)));
+            }
+
+
         }
     }
 }

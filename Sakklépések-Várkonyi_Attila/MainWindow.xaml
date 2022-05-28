@@ -12,7 +12,7 @@
             <ComboBoxItem Name="kiralyNo" Content="Királynő"/>
             <ComboBoxItem Name="bastya" Content="Bástya"/>
             <ComboBoxItem Name="futo" Content="Futó"/>
-            <ComboBoxItem Name="huszagy" Content="Huszár"/>
+            <ComboBoxItem Name="huszar" Content="Huszár"/>
             <ComboBoxItem Name="feherGy" Content="Fehér Gyalog"/>
             <ComboBoxItem Name="feketeGy" Content="Fekete Gyalog"/>
         </ComboBox>
